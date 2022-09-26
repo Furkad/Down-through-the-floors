@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637991813709839468
-    m_Hash: 1432803607
+      ticks: 637997975635851599
+    m_Hash: 1853427357
   m_LockFileStatus:
     m_FilePath: C:/Users/ivano_000/Documents/GitHub/Down-through-the-floors/My project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637991813939138479
-    m_Hash: 4270405504
+      ticks: 637997975635861620
+    m_Hash: 3991796093
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -644,6 +644,7 @@ m_PackageAssets:
         - 2.2.0
         - 2.2.1
         - 2.2.2
+        - 2.2.3
         - 3.1.1
         compatible:
         - 0.1.4-preview
@@ -695,6 +696,7 @@ m_PackageAssets:
         - 2.2.0
         - 2.2.1
         - 2.2.2
+        - 2.2.3
         - 3.1.1
         verified: 
       dependencies:
