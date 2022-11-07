@@ -3,6 +3,9 @@ using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
+using UnityEngine.Rendering;
+using static UnityEngine.UI.Image;
+using UnityEngine.UIElements;
 
 namespace Unity.FPS.AI
 {
@@ -198,6 +201,8 @@ namespace Unity.FPS.AI
                 m_EyeRendererData.Renderer.SetPropertyBlock(m_EyeColorMaterialPropertyBlock,
                     m_EyeRendererData.MaterialIndex);
             }
+
+
         }
 
         void Update()
@@ -241,6 +246,7 @@ namespace Unity.FPS.AI
 
         void OnDetectedTarget()
         {
+
             onDetectedTarget.Invoke();
 
             // Set the eye default color and property block if the eye renderer is set
@@ -250,6 +256,7 @@ namespace Unity.FPS.AI
                 m_EyeRendererData.Renderer.SetPropertyBlock(m_EyeColorMaterialPropertyBlock,
                     m_EyeRendererData.MaterialIndex);
             }
+
         }
 
         public void OrientTowards(Vector3 lookPosition)

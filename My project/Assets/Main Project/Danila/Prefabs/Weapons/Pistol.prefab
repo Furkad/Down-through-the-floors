@@ -222,6 +222,7 @@ MonoBehaviour:
   BulletSpreadAngle: 0
   BulletsPerShot: 1
   RecoilForce: 1
+  AimEnable: 0
   AimZoomRatio: 0.75
   AimOffset: {x: 0, y: 0.03, z: 0.25}
   AutomaticReload: 1

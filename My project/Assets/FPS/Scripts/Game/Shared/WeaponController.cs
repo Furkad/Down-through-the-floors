@@ -64,6 +64,9 @@ namespace Unity.FPS.Game
         [Tooltip("Force that will push back the weapon after each shot")] [Range(0f, 2f)]
         public float RecoilForce = 1;
 
+        [Tooltip("Can this weapon be used to aim or not")]
+        public bool AimEnable = false;
+
         [Tooltip("Ratio of the default FOV that this weapon applies while aiming")] [Range(0f, 1f)]
         public float AimZoomRatio = 1f;
 
