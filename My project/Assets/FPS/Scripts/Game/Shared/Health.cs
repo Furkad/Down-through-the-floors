@@ -14,6 +14,7 @@ namespace Unity.FPS.Game
         public UnityAction<float> OnHealed;
         public UnityAction OnDie;
 
+        
         public float CurrentHealth { get; set; }
         public bool Invincible { get; set; }
         public bool CanPickup() => CurrentHealth < MaxHealth;
@@ -50,6 +51,7 @@ namespace Unity.FPS.Game
             float healthBefore = CurrentHealth;
             CurrentHealth -= damage;
             CurrentHealth = Mathf.Clamp(CurrentHealth, 0f, MaxHealth);
+            Debug.Log(CurrentHealth);
 
             // call OnDamage action
             float trueDamageAmount = healthBefore - CurrentHealth;

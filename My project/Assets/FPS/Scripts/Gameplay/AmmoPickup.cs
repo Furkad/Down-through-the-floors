@@ -17,7 +17,7 @@ namespace Unity.FPS.Gameplay
             if (playerWeaponsManager)
             {
                 WeaponController weapon = playerWeaponsManager.HasWeapon(Weapon);
-                if (weapon != null)
+                if (weapon != null && weapon.GetCarriedPhysicalBullets() + BulletCount <= weapon.ClipSize)
                 {
                     weapon.AddCarriablePhysicalBullets(BulletCount);
 

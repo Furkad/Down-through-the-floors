@@ -267,6 +267,16 @@ namespace Unity.FPS.Game
                 IsCooling = false;
             }
 
+            if (IsReloading)
+            {
+                m_CurrentAmmo += AmmoReloadRate * Time.deltaTime;
+
+                m_CurrentAmmo = Mathf.Clamp(m_CurrentAmmo, 0, MaxAmmo);
+
+                if (m_CurrentAmmo == MaxAmmo)
+                    IsReloading = false;
+            }
+
             if (MaxAmmo == Mathf.Infinity)
             {
                 CurrentAmmoRatio = 1f;

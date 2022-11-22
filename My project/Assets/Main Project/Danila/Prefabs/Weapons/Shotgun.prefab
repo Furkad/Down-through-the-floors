@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 859776634644907141}
   - component: {fileID: 1569035241343494655}
   - component: {fileID: 4993309618005450824}
+  - component: {fileID: 9164818140487751006}
   m_Layer: 0
   m_Name: Shotgun
   m_TagString: Untagged
@@ -204,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WeaponName: Shotgun
-  WeaponIcon: {fileID: 0}
+  WeaponIcon: {fileID: 21300000, guid: 47e9543fc5ae33e4da49436bee11a4bc, type: 3}
   CrosshairDataDefault:
     CrosshairSprite: {fileID: 21300000, guid: e881aa18189b12f4e915fc5b14ddc421, type: 3}
     CrosshairSize: 50
@@ -225,21 +226,22 @@ MonoBehaviour:
   AimEnable: 0
   AimZoomRatio: 0.75
   AimOffset: {x: 0, y: 0, z: 0}
-  AutomaticReload: 1
-  HasPhysicalBullets: 0
-  ClipSize: 30
-  ShellCasing: {fileID: 0}
-  EjectionPort: {fileID: 0}
-  ShellCasingEjectionForce: 2
-  ShellPoolSize: 1
+  AutomaticReload: 0
+  HasPhysicalBullets: 1
+  ClipSize: 16
+  ShellCasing: {fileID: 8475542626198632988, guid: 7c85cb8c43a30774a9de46941aa955e3,
+    type: 3}
+  EjectionPort: {fileID: 2995628758989281756}
+  ShellCasingEjectionForce: 0
+  ShellPoolSize: 2
   AmmoReloadRate: 1
   AmmoReloadDelay: 2
-  MaxAmmo: 8
+  MaxAmmo: 2
   AutomaticReleaseOnCharged: 0
   MaxChargeDuration: 2
   AmmoUsedOnStartCharge: 1
   AmmoUsageRateWhileCharging: 1
-  WeaponAnimator: {fileID: 0}
+  WeaponAnimator: {fileID: 9164818140487751006}
   MuzzleFlashPrefab: {fileID: 0}
   UnparentMuzzleFlash: 0
   ShootSfx: {fileID: 0}
@@ -248,6 +250,25 @@ MonoBehaviour:
   ContinuousShootStartSfx: {fileID: 0}
   ContinuousShootLoopSfx: {fileID: 0}
   ContinuousShootEndSfx: {fileID: 0}
+--- !u!95 &9164818140487751006
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7351496617531405454}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &9124949484003059007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -346,6 +367,12 @@ GameObject:
 --- !u!4 &8730487675227701972 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18c0f0be458e23a4d95f3fc6dacf3698,
+    type: 3}
+  m_PrefabInstance: {fileID: 9124949484003059007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2995628758989281756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2940629238318695197, guid: 18c0f0be458e23a4d95f3fc6dacf3698,
     type: 3}
   m_PrefabInstance: {fileID: 9124949484003059007}
   m_PrefabAsset: {fileID: 0}
