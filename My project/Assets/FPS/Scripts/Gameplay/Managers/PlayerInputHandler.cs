@@ -1,5 +1,6 @@
 ﻿using Unity.FPS.Game;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace Unity.FPS.Gameplay
 {
@@ -124,6 +125,10 @@ namespace Unity.FPS.Gameplay
 
         public bool GetAimInputHeld()
         {
+            PlayerWeaponsManager current = (PlayerWeaponsManager)GetComponent("PlayerWeaponsManager");
+            if (!current.GetActiveWeapon().AimEnable)
+                return false;
+
             if (CanProcessInput())
             {
                 bool isGamepad = Input.GetAxis(GameConstants.k_ButtonNameGamepadAim) != 0f;

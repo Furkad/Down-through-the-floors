@@ -257,7 +257,7 @@ namespace Unity.FPS.Gameplay
             }
 
             // Self Destruct
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
 
         void OnDrawGizmosSelected()

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/FPS/Scenes/SecondaryScene.unity
+- path: Assets/Main Project/Danila/Scenes/Player Controller Test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

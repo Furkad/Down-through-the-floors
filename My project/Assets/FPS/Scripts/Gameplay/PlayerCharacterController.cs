@@ -96,6 +96,9 @@ namespace Unity.FPS.Gameplay
         [Tooltip("Damage recieved when falling at the maximum speed")]
         public float FallDamageAtMaxSpeed = 50f;
 
+        [Tooltip("If the charachter has the key to the elevator")]
+        public bool HasKey = false;
+
         public UnityAction<bool> OnStanceChanged;
 
         public Vector3 CharacterVelocity { get; set; }
