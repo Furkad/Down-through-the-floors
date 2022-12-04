@@ -28,6 +28,16 @@ namespace Unity.FPS.UI
             m_KeyPickup.OnKeyStateSwitch += SwitchImageState;
         }
 
+        private void Update()
+        {
+            if (m_KeyPickup == null)
+            {
+                m_KeyPickup = FindObjectOfType<KeyPickup>();
+                m_KeyPickup.OnKeyStateSwitch += SwitchImageState;
+            }
+               
+        }
+
         void SwitchImageState(bool state)
         {
             keyImage.enabled = state;

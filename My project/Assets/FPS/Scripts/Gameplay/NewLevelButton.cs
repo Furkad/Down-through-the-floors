@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
-using Unity.FPS.Game;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 namespace Unity.FPS.Gameplay
@@ -9,28 +8,36 @@ namespace Unity.FPS.Gameplay
     public class NewLevelButton : MonoBehaviour
     {
         Camera m_Camera;
-        Transform m_PlayerTransform;
+        [Header("MaxDistance you can open or close the door.")]
+        [SerializeField]
+        private float MaxDistance = 5;
+
+        public UnityAction ButtonPressed;
 
         private void Start()
         {
             m_Camera = Camera.main;
-            m_PlayerTransform = GameObject.Find("Player").transform;
         }
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.X))
+            if (Input.GetKeyDown(KeyCode.F) && m_Camera.GetComponentInParent<PlayerCharacterController>().HasKey)
+                Pressed();
+        }
+
+        void Pressed()
+        {
+            RaycastHit buttonHit;
+
+            if (Physics.Raycast(m_Camera.transform.position, m_Camera.transform.forward, out buttonHit, MaxDistance))
             {
-                RaycastHit hit;
-                Ray ray = m_Camera.ScreenPointToRay(Input.mousePosition);
-                Physics.Raycast(ray, out hit);
-                if (hit.transform.position == transform.position && ((Mathf.Abs(hit.transform.position.x-m_PlayerTransform.position.x) < 1f) || Mathf.Abs(hit.transform.position.z - m_PlayerTransform.position.z) < 1f))
+                if (buttonHit.transform.name == name)
                 {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                    if (ButtonPressed != null)
+                        ButtonPressed.Invoke();
+                    SceneManager.LoadScene("SampleScene");
                 }
             }
         }
-
-
     }
 }

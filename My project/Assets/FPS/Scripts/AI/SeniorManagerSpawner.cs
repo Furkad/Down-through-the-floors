@@ -12,7 +12,7 @@ namespace Unity.FPS.AI
         [Tooltip("Prefab of spawning enemy")]
         public GameObject childEnemy;
 
-        [HideInInspector]
+        //[HideInInspector]
         public GameObject[] secretaries = new GameObject[2];
 
         public Health Health { get; private set; }
@@ -32,6 +32,7 @@ namespace Unity.FPS.AI
             {
                 //if (Physics.Raycast(spawnPoint.position, spawnPoint.TransformDirection(Vector3.down), Mathf.Infinity))
                 secretaries[i] = Instantiate(childEnemy, spawnPoint.position, Quaternion.identity);
+                i++;
             }
         }
 
