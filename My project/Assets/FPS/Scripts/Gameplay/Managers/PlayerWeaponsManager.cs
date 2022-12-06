@@ -19,6 +19,9 @@ namespace Unity.FPS.Gameplay
         [Tooltip("List of weapon the player will start with")]
         public List<WeaponController> StartingWeapons = new List<WeaponController>();
 
+        [Tooltip("List of weapon drops for droping weapons")]
+        public List<GameObject> DropingWeapons = new List<GameObject>();
+
         [Header("References")] [Tooltip("Secondary camera used to avoid seeing weapon go throw geometries")]
         public Camera WeaponCamera;
 
@@ -72,15 +75,15 @@ namespace Unity.FPS.Gameplay
         [Tooltip("Layer to set FPS weapon gameObjects to")]
         public LayerMask FpsWeaponLayer;
 
-        public bool IsAiming { get; private set; }
-        public bool IsPointingAtEnemy { get; private set; }
-        public int ActiveWeaponIndex { get; private set; }
+        public bool IsAiming { get; set; }
+        public bool IsPointingAtEnemy { get; set; }
+        public int ActiveWeaponIndex { get;  set; }
 
         public UnityAction<WeaponController> OnSwitchedToWeapon;
         public UnityAction<WeaponController, int> OnAddedWeapon;
         public UnityAction<WeaponController, int> OnRemovedWeapon;
 
-        WeaponController[] m_WeaponSlots = new WeaponController[9]; // 9 available weapon slots
+        WeaponController[] m_WeaponSlots = new WeaponController[2]; // 9 available weapon slots
         PlayerInputHandler m_InputHandler;
         PlayerCharacterController m_PlayerCharacterController;
         float m_WeaponBobFactor;
@@ -129,12 +132,19 @@ namespace Unity.FPS.Gameplay
 
             if (activeWeapon != null && m_WeaponSwitchState == WeaponSwitchState.Up)
             {
+                if (activeWeapon != null && m_InputHandler.GetDropButtonDown())
+                {
+                    RemoveWeapon(activeWeapon);
+                    return;
+                }
+
                 if (!activeWeapon.AutomaticReload && m_InputHandler.GetReloadButtonDown() && activeWeapon.CurrentAmmoRatio < 1.0f)
                 {
                     IsAiming = false;
                     activeWeapon.StartReloadAnimation();
                     return;
                 }
+
                 // handle aiming down sights
                 IsAiming = m_InputHandler.GetAimInputHeld();
 
@@ -447,7 +457,7 @@ namespace Unity.FPS.Gameplay
                     // Set owner to this gameObject so the weapon can alter projectile/damage logic accordingly
                     weaponInstance.Owner = gameObject;
                     weaponInstance.SourcePrefab = weaponPrefab.gameObject;
-                    weaponInstance.ShowWeapon(false);
+                    weaponInstance.ShowWeapon(true);
 
                     // Assign the first person layer to the weapon
                     int layerIndex =
@@ -459,6 +469,8 @@ namespace Unity.FPS.Gameplay
                     }
 
                     m_WeaponSlots[i] = weaponInstance;
+
+                    SwitchToWeaponIndex(i);
 
                     if (OnAddedWeapon != null)
                     {
@@ -493,12 +505,26 @@ namespace Unity.FPS.Gameplay
                         OnRemovedWeapon.Invoke(weaponInstance, i);
                     }
 
+                    foreach (Transform t in weaponInstance.gameObject.GetComponentsInChildren<Transform>(true))
+                    {
+                        Destroy(t.gameObject);
+                    }
+
+                    foreach (GameObject drop in DropingWeapons)
+                    {
+                        if (drop.GetComponent<WeaponPickup>().WeaponPrefab.WeaponName == weaponInstance.WeaponName)
+                        {
+                            GameObject thatDrop = Instantiate(drop, transform.position+transform.forward*2f+ transform.up*0.25f, Quaternion.identity);
+                            break;
+                        }
+                    }
+
                     Destroy(weaponInstance.gameObject);
 
                     // Handle case of removing active weapon (switch to next weapon)
                     if (i == ActiveWeaponIndex)
                     {
-                        SwitchWeapon(true);
+                        SwitchWeapon(false);
                     }
 
                     return true;

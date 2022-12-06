@@ -205,6 +205,7 @@ namespace Unity.FPS.Game
         {
             Rigidbody nextShell = m_PhysicalAmmoPool.Dequeue();
 
+            nextShell.transform.tag = "Default";
             nextShell.transform.position = EjectionPort.transform.position;
             nextShell.transform.rotation = EjectionPort.transform.rotation;
             nextShell.gameObject.SetActive(true);

@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DetectionSourcePoint: {fileID: 6226213150688321024}
-  DetectionRange: 20
+  DetectionRange: 10
   AttackRange: 2.5
   KnownTargetTimeout: 4
   Animator: {fileID: 0}
@@ -578,7 +578,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.71
   m_Speed: 3.5
-  m_Acceleration: 8
+  m_Acceleration: 5
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
@@ -644,8 +644,9 @@ MonoBehaviour:
   DamageTick: {fileID: 0}
   DeathVfx: {fileID: 0}
   DeathVfxSpawnPoint: {fileID: 6226213150580861952}
-  LootPrefab: {fileID: 0}
-  DropRate: 1
+  LootPrefab: {fileID: 5391986374566301945, guid: 403b6e8f42fcb8840abc589fbe1aa054,
+    type: 3}
+  DropRate: 0.5
   PathReachingRangeColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   AttackRangeColor: {r: 1, g: 0, b: 0, a: 1}
   DetectionRangeColor: {r: 0, g: 0, b: 1, a: 1}
@@ -662,7 +663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animator: {fileID: 2202623043672840429}
-  AttackStopDistanceRatio: 0.5
+  AttackStopDistanceRatio: 0.08
   RandomHitSparks:
   - {fileID: 4256421387130676425}
   OnDetectVfx: []

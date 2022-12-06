@@ -28,6 +28,12 @@ namespace Unity.FPS.UI
                 AddWeapon(activeWeapon, m_PlayerWeaponsManager.ActiveWeaponIndex);
                 ChangeWeapon(activeWeapon);
             }
+            WeaponController secondWeapon = m_PlayerWeaponsManager.GetWeaponAtSlotIndex(m_PlayerWeaponsManager.ActiveWeaponIndex + 1);
+            if (secondWeapon)
+            {
+                AddWeapon(secondWeapon, m_PlayerWeaponsManager.ActiveWeaponIndex + 1);
+                ChangeWeapon(secondWeapon);
+            }
 
             m_PlayerWeaponsManager.OnAddedWeapon += AddWeapon;
             m_PlayerWeaponsManager.OnRemovedWeapon += RemoveWeapon;

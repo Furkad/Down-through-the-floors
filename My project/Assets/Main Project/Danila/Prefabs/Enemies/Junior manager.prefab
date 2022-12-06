@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DetectionSourcePoint: {fileID: 6226213150688321024}
-  DetectionRange: 20
+  DetectionRange: 10
   AttackRange: 2.5
   KnownTargetTimeout: 4
   Animator: {fileID: 0}
@@ -700,7 +700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6226213150587882492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.47, y: -1.29, z: 9.63}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6226213150760309697}
@@ -818,7 +818,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
-  m_Acceleration: 8
+  m_Acceleration: 5
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
@@ -884,7 +884,8 @@ MonoBehaviour:
   DamageTick: {fileID: 0}
   DeathVfx: {fileID: 0}
   DeathVfxSpawnPoint: {fileID: 6226213150580861952}
-  LootPrefab: {fileID: 0}
+  LootPrefab: {fileID: 5391986374566301945, guid: 86b7655b4bb6f8b4eae54031d713d455,
+    type: 3}
   DropRate: 1
   PathReachingRangeColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   AttackRangeColor: {r: 1, g: 0, b: 0, a: 1}
@@ -1023,7 +1024,8 @@ MonoBehaviour:
   - {fileID: 8553982517508116515}
   - {fileID: 8807209478119580448}
   - {fileID: 6528637081651607004}
-  childEnemy: {fileID: 0}
+  childEnemy: {fileID: 6226213150587882492, guid: 0deea574fa57a3a479b516554e249c45,
+    type: 3}
   m_hasSpawned: 0
 --- !u!95 &889930187770973428
 Animator:

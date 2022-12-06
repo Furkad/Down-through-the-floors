@@ -181,6 +181,16 @@ namespace Unity.FPS.Gameplay
             return false;
         }
 
+        public bool GetDropButtonDown()
+        {
+            if (CanProcessInput())
+            {
+                return Input.GetButtonDown(GameConstants.k_ButtonNameDrop);
+            }
+
+            return false;
+        }
+
         public int GetSwitchWeaponInput()
         {
             if (CanProcessInput())
@@ -212,7 +222,7 @@ namespace Unity.FPS.Gameplay
                     return 1;
                 else if (Input.GetKeyDown(KeyCode.Alpha2))
                     return 2;
-                else if (Input.GetKeyDown(KeyCode.Alpha3))
+                /*else if (Input.GetKeyDown(KeyCode.Alpha3))
                     return 3;
                 else if (Input.GetKeyDown(KeyCode.Alpha4))
                     return 4;
@@ -227,11 +237,12 @@ namespace Unity.FPS.Gameplay
                 else if (Input.GetKeyDown(KeyCode.Alpha9))
                     return 9;
                 else
-                    return 0;
+                    return 0;*/
             }
 
             return 0;
         }
+
 
         float GetMouseOrStickLookAxis(string mouseInputName, string stickInputName)
         {
