@@ -1,5 +1,5 @@
-using UnityEditor;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
@@ -11,12 +11,14 @@ namespace Unity.FPS.Gameplay
         [Header("MaxDistance you can open or close the door.")]
         [SerializeField]
         private float MaxDistance = 5;
+        private LevelCounter counter;
 
         public UnityAction ButtonPressed;
 
         private void Start()
         {
             m_Camera = Camera.main;
+            counter = FindObjectOfType<LevelCounter>();
         }
 
         void Update()
@@ -33,9 +35,24 @@ namespace Unity.FPS.Gameplay
             {
                 if (buttonHit.transform.name == name)
                 {
-                    if (ButtonPressed != null)
-                        ButtonPressed.Invoke();
-                    SceneManager.LoadScene("SampleScene");
+                    if (counter.counter < 4)
+                    {
+                        var TheLevel = GameObject.Find("Level (" + counter.counter + ")");
+                        counter.GetComponent<LevelCounter>().counter++;
+                        var NewLevel = GameObject.Find("Level (" + counter.counter + ")");
+                        NewLevel.transform.Find("SpawnRoom(Clone)").gameObject.transform.Find("GameObject").transform.Find("wall2").transform.Find("elevator_wall").transform.Find("New Level Button").gameObject.SetActive(true);
+                        FindObjectOfType<PlayerCharacterController>().transform.position = NewLevel.transform.Find("SpawnRoom(Clone)").transform.Find("GameObject").transform.Find("PlayerSpawn").transform.position;
+                        FindObjectOfType<PlayerCharacterController>().HasKey = false;
+                        NewLevel.transform.Find("SpawnRoom(Clone)").transform.Find("GameObject").transform.Find("door").gameObject.GetComponent<Animator>().SetTrigger("Closed");
+                        Destroy(TheLevel);
+                        //ButtonPressed.Invoke();
+                    }
+                    else
+                    {
+                        Cursor.lockState = CursorLockMode.None;
+                        Cursor.visible = true;
+                        SceneManager.LoadScene("mainMenu");
+                    }
                 }
             }
         }

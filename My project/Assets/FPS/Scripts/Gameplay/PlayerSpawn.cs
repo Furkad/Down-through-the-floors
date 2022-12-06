@@ -8,17 +8,18 @@ namespace Unity.FPS.Gameplay
 
         void Awake()
         {
-            if (FindObjectOfType<PlayerCharacterController>() == true)
+            if (FindObjectOfType<PlayerCharacterController>() == null && transform.parent.transform.parent.transform.parent.name == "Level (0)")
             {
-                GameObject thePlayer = FindObjectOfType<PlayerCharacterController>().gameObject;
+                Instantiate(player, transform.position, Quaternion.identity);
+                Destroy(this);
+            }
+        }
+
+        /*                GameObject thePlayer = FindObjectOfType<PlayerCharacterController>().gameObject;
                 thePlayer.transform.position = transform.position;
             }
             else
-            {
-                Instantiate(player, transform.position, Quaternion.identity);
-            }
-            Destroy(this);
-        }
+            {*/
 
     }
 }

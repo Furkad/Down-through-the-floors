@@ -8,6 +8,7 @@ namespace Unity.FPS.UI
     public class KeyHUDManager : MonoBehaviour
     {
         KeyPickup m_KeyPickup;
+        NewLevelButton m_NewLevelButton;
         PlayerCharacterController m_PlayerCharacterController;
         [Tooltip("Image of a key in UI")]
         public Image keyImage;
@@ -17,15 +18,13 @@ namespace Unity.FPS.UI
             m_PlayerCharacterController = FindObjectOfType<PlayerCharacterController>();
             DebugUtility.HandleErrorIfNullFindObject<PlayerCharacterController, KeyHUDManager>(m_PlayerCharacterController, this);
 
-            m_KeyPickup = FindObjectOfType<KeyPickup>();
-            DebugUtility.HandleErrorIfNullFindObject<KeyPickup, KeyHUDManager>(m_KeyPickup, this);
+            /*m_KeyPickup = FindObjectOfType<KeyPickup>();
+            DebugUtility.HandleErrorIfNullFindObject<KeyPickup, KeyHUDManager>(m_KeyPickup, this);*/
 
-            if (m_PlayerCharacterController.HasKey)
-                keyImage.enabled = true;
-            else
-                keyImage.enabled = false;
+            m_PlayerCharacterController.HasKey = false;
+            keyImage.enabled = false;
 
-            m_KeyPickup.OnKeyStateSwitch += SwitchImageState;
+            //m_KeyPickup.OnKeyStateSwitch += SwitchImageState;
         }
 
         private void Update()
@@ -35,7 +34,12 @@ namespace Unity.FPS.UI
                 m_KeyPickup = FindObjectOfType<KeyPickup>();
                 m_KeyPickup.OnKeyStateSwitch += SwitchImageState;
             }
-               
+
+            if (m_NewLevelButton == null)
+            {
+                m_NewLevelButton = FindObjectOfType<NewLevelButton>();
+                //m_NewLevelButton.ButtonPressed += SwitchImageState;
+            }    
         }
 
         void SwitchImageState(bool state)

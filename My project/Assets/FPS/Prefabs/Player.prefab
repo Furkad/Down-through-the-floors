@@ -445,7 +445,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartingWeapons:
   - {fileID: 7288928602252850519, guid: f7e64f38ba2670d458bbe1e59728ea64, type: 3}
-  - {fileID: 4993309618005450824, guid: adf3e4858d6a7a84dae8cfe254be4d69, type: 3}
   DropingWeapons:
   - {fileID: 5391986374566301945, guid: 4c64e43768b58c5438a4c2ddd82e4032, type: 3}
   - {fileID: 5391986374566301945, guid: af94083cc23452041be9db8b30528a96, type: 3}

@@ -11,7 +11,6 @@ public class doorOpen : MonoBehaviour
     private bool opened = false;
     private Animator anim;
 
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))

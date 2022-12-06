@@ -48,19 +48,6 @@ namespace LevelGenerator.Scripts
             DeactivateBounds();
         }
 
-        private void OnEnable()
-        {
-            if (Seed != 0)
-                RandomService.SetSeed(Seed);
-            else
-                Seed = RandomService.Seed;
-
-            CheckRuleIntegrity();
-            LevelSize = MaxLevelSize;
-            CreateInitialSection();
-            DeactivateBounds();
-        }
-
         protected void CheckRuleIntegrity()
         {
             foreach (var ruleTag in SpecialRules.Select(r => r.Tag))
