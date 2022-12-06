@@ -4,9 +4,9 @@ public class simplSpawn : MonoBehaviour
 {
     public GameObject[] spawnObjects;
     public Transform[] spawnLocations;
-    public GameObject roll;
+    public GameObject[] roll;
     GameObject[] spawnObjectsResults;
-    float angle = 0;
+    float[] angle=new float[2];
     bool rot=false;
     float speed = 150;
     int chance = 1;
@@ -26,11 +26,20 @@ public class simplSpawn : MonoBehaviour
     {
         if(!rot)
         {
-            roll.transform.Rotate(0f, speed * Time.deltaTime, 0f);
+            for(int i=0; i < roll.Length; i++)
+            {
+                roll[i].transform.Rotate(0f, speed * Time.deltaTime, 0f);
+            }
+
         }
         else
         {
-            roll.transform.rotation = Quaternion.Euler(angle, 90f, 90f);
+            Debug.Log(angle + " pol");
+            for (int i = 0; i < roll.Length; i++)
+            {
+                roll[i].transform.rotation = Quaternion.Euler(angle[i], 90f, 90f);
+            }
+
 
         }
         
@@ -41,7 +50,6 @@ public class simplSpawn : MonoBehaviour
     void OnButtonClick()
     {
         RaycastHit buttonhit;
-
         if (Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out buttonhit, MaxDistance))
         {
             if (buttonhit.transform.name == name && chance > 0)
@@ -62,19 +70,25 @@ public class simplSpawn : MonoBehaviour
 
                 int id;
                 int count = 0;
-
+                Debug.Log(spawnLocations.Length);
+                Debug.Log(spawnObjects.Length);
                 for (int i = 0; i < spawnLocations.Length; i++)
                 {
+                    Debug.Log(spawnLocations.Length);
+                    Debug.Log(spawnObjects.Length);
+                    Debug.Log(spawnObjectsResults.Length);
                     count++;
                     id = Random.Range(0, spawnObjectsResults.Length - count);
+                    Debug.Log(id + " id");
 
-                    angle = id * 360 / spawnObjects.Length;
+                    angle[i] = id * 360 / spawnObjects.Length;
+                    Debug.Log(angle + " angle");
 
                     Instantiate(spawnObjectsResults[id], spawnLocations[i]);
                     spawnObjectsResults = RemoveElement(spawnObjectsResults, id, count);
-                    rot = true;
-                }
 
+                }
+                rot = true;
                 chance--;
             }
         }
