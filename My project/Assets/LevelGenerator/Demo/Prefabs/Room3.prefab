@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 411109078404440909}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.02}
+  m_LocalPosition: {x: 0, y: 0, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8447881167804754954}
@@ -167,7 +167,7 @@ MonoBehaviour:
   - corridor
   Exits: {fileID: 6939146243761094065}
   Bounds: {fileID: 6311786956086266649}
-  DeadEndChance: 10
+  DeadEndChance: 0
 --- !u!1 &5225819739928744377
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7934359289722829407, guid: 743f70fad48942c47a5ab496117cabcd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 743f70fad48942c47a5ab496117cabcd, type: 3}
 --- !u!4 &2754570154721329736 stripped
@@ -833,6 +838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 7934359289722829407, guid: 743f70fad48942c47a5ab496117cabcd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 743f70fad48942c47a5ab496117cabcd, type: 3}
 --- !u!4 &3822081005138892491 stripped
@@ -922,6 +932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7934359289722829407, guid: 743f70fad48942c47a5ab496117cabcd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 743f70fad48942c47a5ab496117cabcd, type: 3}

@@ -456,7 +456,7 @@ MonoBehaviour:
     MinAmount: 1
     MaxAmount: 1
   - Tag: treasure
-    MinAmount: 0
+    MinAmount: 1
     MaxAmount: 1
 --- !u!4 &1387058624
 Transform:
