@@ -671,6 +671,7 @@ MonoBehaviour:
   - {fileID: 9014937463811898191, guid: e7a44541ce241984e80a6fcef0fc2acf, type: 3}
   - {fileID: 1431594780588024795, guid: ad9bc6b1afecaa146997ffac30d1df51, type: 3}
   - {fileID: 2012793185415375663, guid: c58a709c604a22c46859c04083cab5e9, type: 3}
+  - {fileID: 5846788834807155333, guid: 3d66bcc5b5c1e714fa0a6afb8a88c3cb, type: 3}
   DeadEnds:
   - {fileID: 6867956003714455516, guid: 1352c06b785da1a409b8f9feba639229, type: 3}
   InitialSectionTags:
@@ -683,6 +684,9 @@ MonoBehaviour:
     MinAmount: 1
     MaxAmount: 1
   - Tag: central
+    MinAmount: 1
+    MaxAmount: 1
+  - Tag: cafe
     MinAmount: 1
     MaxAmount: 1
 --- !u!4 &523443725
@@ -1298,6 +1302,7 @@ MonoBehaviour:
   - {fileID: 9014937463811898191, guid: e7a44541ce241984e80a6fcef0fc2acf, type: 3}
   - {fileID: 1431594780588024795, guid: ad9bc6b1afecaa146997ffac30d1df51, type: 3}
   - {fileID: 2012793185415375663, guid: c58a709c604a22c46859c04083cab5e9, type: 3}
+  - {fileID: 5846788834807155333, guid: 3d66bcc5b5c1e714fa0a6afb8a88c3cb, type: 3}
   DeadEnds:
   - {fileID: 6867956003714455516, guid: 1352c06b785da1a409b8f9feba639229, type: 3}
   InitialSectionTags:
@@ -1310,6 +1315,9 @@ MonoBehaviour:
     MinAmount: 1
     MaxAmount: 1
   - Tag: central
+    MinAmount: 1
+    MaxAmount: 1
+  - Tag: cafe
     MinAmount: 1
     MaxAmount: 1
 --- !u!4 &668248507
@@ -1380,6 +1388,7 @@ MonoBehaviour:
   - {fileID: 9014937463811898191, guid: e7a44541ce241984e80a6fcef0fc2acf, type: 3}
   - {fileID: 1431594780588024795, guid: ad9bc6b1afecaa146997ffac30d1df51, type: 3}
   - {fileID: 2012793185415375663, guid: c58a709c604a22c46859c04083cab5e9, type: 3}
+  - {fileID: 5846788834807155333, guid: 3d66bcc5b5c1e714fa0a6afb8a88c3cb, type: 3}
   DeadEnds:
   - {fileID: 6867956003714455516, guid: 1352c06b785da1a409b8f9feba639229, type: 3}
   InitialSectionTags:
@@ -1394,6 +1403,9 @@ MonoBehaviour:
   - Tag: central
     MinAmount: 1
     MaxAmount: 3
+  - Tag: cafe
+    MinAmount: 1
+    MaxAmount: 1
 --- !u!4 &744896580
 Transform:
   m_ObjectHideFlags: 0
@@ -1755,7 +1767,7 @@ MonoBehaviour:
   Seed: 0
   SectionContainer: {fileID: 0}
   MaxLevelSize: 10
-  MaxAllowedOrder: 3
+  MaxAllowedOrder: 4
   Sections:
   - {fileID: 11835433341965080, guid: c922fec10f3cea841860c7478e6c2899, type: 3}
   - {fileID: 1492136533057598152, guid: a53c3c7d7c7a455419092c05e890a804, type: 3}
@@ -1765,6 +1777,7 @@ MonoBehaviour:
   - {fileID: 9014937463811898191, guid: e7a44541ce241984e80a6fcef0fc2acf, type: 3}
   - {fileID: 1431594780588024795, guid: ad9bc6b1afecaa146997ffac30d1df51, type: 3}
   - {fileID: 2012793185415375663, guid: c58a709c604a22c46859c04083cab5e9, type: 3}
+  - {fileID: 5846788834807155333, guid: 3d66bcc5b5c1e714fa0a6afb8a88c3cb, type: 3}
   DeadEnds:
   - {fileID: 6867956003714455516, guid: 1352c06b785da1a409b8f9feba639229, type: 3}
   InitialSectionTags:
@@ -1777,6 +1790,9 @@ MonoBehaviour:
     MinAmount: 1
     MaxAmount: 1
   - Tag: central
+    MinAmount: 1
+    MaxAmount: 1
+  - Tag: cafe
     MinAmount: 1
     MaxAmount: 1
 --- !u!4 &1387058624
@@ -1969,6 +1985,7 @@ MonoBehaviour:
   - {fileID: 9014937463811898191, guid: e7a44541ce241984e80a6fcef0fc2acf, type: 3}
   - {fileID: 1431594780588024795, guid: ad9bc6b1afecaa146997ffac30d1df51, type: 3}
   - {fileID: 2012793185415375663, guid: c58a709c604a22c46859c04083cab5e9, type: 3}
+  - {fileID: 5846788834807155333, guid: 3d66bcc5b5c1e714fa0a6afb8a88c3cb, type: 3}
   DeadEnds:
   - {fileID: 6867956003714455516, guid: 1352c06b785da1a409b8f9feba639229, type: 3}
   InitialSectionTags:
@@ -1981,6 +1998,9 @@ MonoBehaviour:
     MinAmount: 1
     MaxAmount: 1
   - Tag: central
+    MinAmount: 1
+    MaxAmount: 1
+  - Tag: cafe
     MinAmount: 1
     MaxAmount: 1
 --- !u!4 &1499951713
