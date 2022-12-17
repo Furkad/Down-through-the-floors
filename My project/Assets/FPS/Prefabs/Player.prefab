@@ -392,11 +392,7 @@ MonoBehaviour:
     m_Bits: 1
   GroundCheckDistance: 1
   MaxSpeedOnGround: 10
-<<<<<<< HEAD
-  MovementSharpnessOnGround: 15
-=======
   MovementSharpnessOnGround: 10
->>>>>>> Danila's-Branch
   MaxSpeedCrouchedRatio: 0.5
   MaxSpeedInAir: 10
   AccelerationSpeedInAir: 25
