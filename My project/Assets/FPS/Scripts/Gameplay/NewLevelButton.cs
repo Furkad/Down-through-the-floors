@@ -41,10 +41,9 @@ namespace Unity.FPS.Gameplay
                         counter.GetComponent<LevelCounter>().counter++;
                         var NewLevel = GameObject.Find("Level (" + counter.counter + ")");
                         NewLevel.transform.Find("SpawnRoom(Clone)").gameObject.transform.Find("GameObject").transform.Find("wall2").transform.Find("elevator_wall").transform.Find("New Level Button").gameObject.SetActive(true);
-                        NewLevel.transform.Find("SpawnRoom(Clone)").transform.Find("GameObject").transform.Find("door").gameObject.GetComponent<Animator>().SetTrigger("Closed");
                         FindObjectOfType<PlayerCharacterController>().transform.position = NewLevel.transform.Find("SpawnRoom(Clone)").transform.Find("GameObject").transform.Find("PlayerSpawn").transform.position;
-                        FindObjectOfType<PlayerCharacterController>().transform.rotation = NewLevel.transform.Find("SpawnRoom(Clone)").transform.Find("GameObject").transform.Find("PlayerSpawn").transform.rotation;
                         FindObjectOfType<PlayerCharacterController>().HasKey = false;
+                        NewLevel.transform.Find("SpawnRoom(Clone)").transform.Find("GameObject").transform.Find("door").gameObject.GetComponent<Animator>().SetTrigger("Closed");
                         Destroy(TheLevel);
                         //ButtonPressed.Invoke();
                     }
