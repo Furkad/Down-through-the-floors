@@ -15,11 +15,11 @@ D:/Физ_модель_1/games/УПП/Down-through-the-floors/Down-through-the-f
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53325
+51261
 Successfully changed project path to: D:/Физ_модель_1/games/УПП/Down-through-the-floors/Down-through-the-floors/My project
 D:/Физ_модель_1/games/УПП/Down-through-the-floors/Down-through-the-floors/My project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -35,532 +35,517 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003318 seconds.
+Registered in 0.003251 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
+- Completed reload, in  0.848 seconds
 Domain Reload Profiling:
-	ReloadAssembly (862ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (849ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (630ms)
-			LoadAssemblies (114ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (263ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (28ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003295 seconds.
+Registered in 0.004650 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000279A1344030 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028D18133D00 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0AEA8A0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll
+Symbol file data-0000028CF321F010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A2059450 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028D17ACDE60 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A206E660 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028D17AE3070 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A2074670 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028D17AE9080 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A19CE010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028CF341D8D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A19CE010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028CF341D8D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A19FD820 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028CF344D0E0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A26BB190 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000028D17516460 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A19FD820 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000028CF344D0E0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0C5F570 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000028CF31DAC20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1FDA010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000028D18021010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1FDA010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000028D18021010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A214FC30 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028D17A48E30 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1FDA010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028D18021010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0F5F150 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028CF36836B0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A136A090 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll
+Symbol file data-0000028D18064AB0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0D54860 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028D1802DC20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A136A090 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000028CF36836B0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A2008840 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll
+Symbol file data-0000028D1802DC20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0FCE850 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000028D170AB230 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002797AB88720 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll
+Symbol file data-0000028CED9CB0C0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0D4DDB0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000028D17835090 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A11B1E20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000028D1826B620 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A13D5E30 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000028D177E0D20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1A75E40 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000028CF3687EC0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A13D5E30 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000028D18133D00 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A0E576F0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028D1712B010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A0E576F0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028D17153620 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E09CDD30 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll
+Symbol file data-0000028CF31DD4D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.383 seconds
+- Completed reload, in  1.558 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1384ms)
-		BeginReloadAssembly (214ms)
+	ReloadAssembly (1559ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1089ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1265ms)
+			LoadAssemblies (149ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
+			SetupTypeCache (421ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (448ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 5.006100 ms (FindLiveObjects: 0.209100 ms CreateObjectMapping: 0.055100 ms MarkObjects: 3.563000 ms  DeleteObjects: 1.177200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/healroom.prefab
+  artifactKey: Guid(3d66bcc5b5c1e714fa0a6afb8a88c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/healroom.prefab using Guid(3d66bcc5b5c1e714fa0a6afb8a88c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5291604f455cb18ccf7e55bfcfa34dc') in 0.233850 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003812 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CF30026A0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF2DC77D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF34BFC20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF34AA020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF34BFC20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF34BFC20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF300CDA0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1AECF020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF3540A60 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF34BFC20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CEDA34DA0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF3397020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF3397020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D181023E0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF3397020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1725E630 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D18064AB0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF31AB020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF34B0FD0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D16FC1010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C9D4520 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1CE08410 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D18A80090 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D170AB970 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D170CF620 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC866FFF0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D16E5B6E0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF341D8D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D17AE1630 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D177E2730 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1036ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (394ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (272ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.9 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2644.
+Total: 6.179900 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.065600 ms MarkObjects: 4.202600 ms  DeleteObjects: 1.647400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113.424048 seconds.
+  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/SpawnRoom.prefab
+  artifactKey: Guid(ad9bc6b1afecaa146997ffac30d1df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/SpawnRoom.prefab using Guid(ad9bc6b1afecaa146997ffac30d1df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d09b1cbd2737f08a192fea32a09242') in 0.269310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.191167 seconds.
+  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/SpawnRoom.prefab
+  artifactKey: Guid(ad9bc6b1afecaa146997ffac30d1df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/SpawnRoom.prefab using Guid(ad9bc6b1afecaa146997ffac30d1df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285d916d5515c72e6b38cd3a8f5c07ed') in 0.050301 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003388 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028D1C5E3290 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1826F430 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1B7474F0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1837F020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C89E4D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF32CC210 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D17B53010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF3115040 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1CBC71F0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1B7474F0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D5DE9FA60 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF35627E0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1770E030 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1837F020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D17ABC020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1BE6F7B0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D18064AB0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D18D65010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF373B060 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D16FC1010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D5DCE19A0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D5E2207E0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D5E2CA200 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1A686030 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1CB672E0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CEDAD03C0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D189D3820 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF341D8D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C89E4D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF3345220 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1198ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.1 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 4.913200 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.055900 ms MarkObjects: 3.409000 ms  DeleteObjects: 1.236500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003468 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028B681BE1F0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D18472030 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C8EB010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D170AB640 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C9B5190 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D170C4010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C5BF080 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C9DE760 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C59A960 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D16CC6010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CEDA330C0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1B8A3020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1770E030 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D170AB640 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF300CDA0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1B490EC0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028B681BE1F0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D18682020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1AD1A010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D16FC1010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1A5DDEC0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D5E4A2E90 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1A3A2060 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1B490EC0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1A5BC070 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D18472030 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C896020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF2EBDC30 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C89E4D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028D1C6D1FB0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (249ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2213 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.0 MB.
-System memory in use after: 168.5 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2633.
-Total: 8.250100 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.079400 ms MarkObjects: 6.449300 ms  DeleteObjects: 1.469500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/FPS/Prefabs/Player.prefab
-  artifactKey: Guid(761cdc9e4e883334cbdcea062d0befa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Player.prefab using Guid(761cdc9e4e883334cbdcea062d0befa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b36e18bec0c20b1ce415e163eb9ac6') in 0.215581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/FPS/Prefabs/GameManager.prefab
-  artifactKey: Guid(c996b53e9f849234393d1e90f68d1679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/GameManager.prefab using Guid(c996b53e9f849234393d1e90f68d1679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0eba3ecdbae4338b838beb19471ee0') in 0.157029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.568725 seconds.
-  path: Assets/FPS/Art/Textures/VFX/Falloff.psd
-  artifactKey: Guid(7dbb90ed25a3a3d4981e6b5ac6273b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Textures/VFX/Falloff.psd using Guid(7dbb90ed25a3a3d4981e6b5ac6273b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660f7552a84c7e81fc0a5679b7e4eb6d') in 0.114677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/FPS/Art/Textures/VFX/Shadow.psd
-  artifactKey: Guid(93a91d6f0b91aaa49aaf4b9a6b217147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Textures/VFX/Shadow.psd using Guid(93a91d6f0b91aaa49aaf4b9a6b217147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76edbdde95c450e2ca8e9e20d3322c43') in 0.068554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/FPS/Art/Textures/VFX/ShrapnelTriangle.png
-  artifactKey: Guid(2c6ccacfd94205d428be5a7033cefaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Textures/VFX/ShrapnelTriangle.png using Guid(2c6ccacfd94205d428be5a7033cefaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fc1a51948a05c757adceb5ae565f0a') in 0.047882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/FPS/Art/Textures/VFX/WireframeCage.png
-  artifactKey: Guid(c2edc512c4492644fa426de5fca31968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Textures/VFX/WireframeCage.png using Guid(c2edc512c4492644fa426de5fca31968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a7d5bf71e2c521c941b9df8a005717') in 0.044422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/FPS/Art/Textures/VFX/Symbol_Speedlines.tga
-  artifactKey: Guid(015bdd9936c309c4b8ae14480d3a51b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Textures/VFX/Symbol_Speedlines.tga using Guid(015bdd9936c309c4b8ae14480d3a51b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268c48f739cac5f64f0784564af8040f') in 0.069314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/FPS/Art/Textures/VFX/Symbol_Speedlines_Atlas.tga
-  artifactKey: Guid(caab48d99d348f14f9c9142539950ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Textures/VFX/Symbol_Speedlines_Atlas.tga using Guid(caab48d99d348f14f9c9142539950ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7488d6cb1f244516d3281054fc523ade') in 0.036656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/FPS/Art/Textures/VFX/Symbol_ExclamationMark.tga
-  artifactKey: Guid(cfb4e85a61d4186468353b192daf565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Textures/VFX/Symbol_ExclamationMark.tga using Guid(cfb4e85a61d4186468353b192daf565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64739e8370baa73c72fb86c13a2282c3') in 0.045187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.504674 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Corridor1.prefab
-  artifactKey: Guid(c922fec10f3cea841860c7478e6c2899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Corridor1.prefab using Guid(c922fec10f3cea841860c7478e6c2899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ec908ebaa65c80217ec1008f15fc45') in 0.027418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Corridor2.prefab
-  artifactKey: Guid(a53c3c7d7c7a455419092c05e890a804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Corridor2.prefab using Guid(a53c3c7d7c7a455419092c05e890a804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014240505bbf00d86be944551b0dae68') in 0.022419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008766 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/healroom.prefab
-  artifactKey: Guid(3d66bcc5b5c1e714fa0a6afb8a88c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/healroom.prefab using Guid(3d66bcc5b5c1e714fa0a6afb8a88c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468dbae69a8c9f0e6fc544afe4dc6e26') in 0.045775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/light.mat
-  artifactKey: Guid(747755ccce1268b428aee29779d19d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/light.mat using Guid(747755ccce1268b428aee29779d19d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf31c9ea4ae928a39dccf771c1e1fb3') in 0.113416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.832736 seconds.
-  path: Assets/Main Project/Egor/Design/mainMenu.unity
-  artifactKey: Guid(d240dfa9f03a447499c1ef47642e6645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/Design/mainMenu.unity using Guid(d240dfa9f03a447499c1ef47642e6645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a113433e4d826826227a43e7f3ff0809') in 0.003502 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006080 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000277E0AA8810 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A19FC420 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4422020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1FC0080 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4422020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4422020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1A99030 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1FDA010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1FC6090 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4422020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002797A9CD0C0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A0C72010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A0C72010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1882A60 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0B7B020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0DC7240 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A24F2620 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A0C86A20 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A2272060 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A0CB3DC0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A5A74CE0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A6C31CF0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E06FCCC0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0DC7240 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0D52150 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A0CE8FA0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0AA8810 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A15E3020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1824010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1274180 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.305 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1306ms)
-		BeginReloadAssembly (199ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1019ms)
-			LoadAssemblies (155ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (394ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.8 MB.
-System memory in use after: 171.4 MB.
+System memory in use before: 172.2 MB.
+System memory in use after: 170.7 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2681.
-Total: 5.379700 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.075500 ms MarkObjects: 3.933400 ms  DeleteObjects: 1.059800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 87.477970 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/TreasureRoom.prefab
-  artifactKey: Guid(c58a709c604a22c46859c04083cab5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/TreasureRoom.prefab using Guid(c58a709c604a22c46859c04083cab5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158eb4be6838136f39546d21598a2b3e') in 0.177452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Corridor2.prefab
-  artifactKey: Guid(a53c3c7d7c7a455419092c05e890a804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Corridor2.prefab using Guid(a53c3c7d7c7a455419092c05e890a804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9af70b239e425815bc2eae6c102055') in 0.049078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/light.prefab
-  artifactKey: Guid(83e011b27dabd8147a035c1d0685b03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/light.prefab using Guid(83e011b27dabd8147a035c1d0685b03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdd79c6e39c9cde76c7ccc06ef2fa4d') in 0.018133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Corridor1.prefab
-  artifactKey: Guid(c922fec10f3cea841860c7478e6c2899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Corridor1.prefab using Guid(c922fec10f3cea841860c7478e6c2899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80f62df762d6f51b7ffe6e4bb035d7f') in 0.020997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Room3.prefab
-  artifactKey: Guid(37397042b63958749882c7bff52d4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Room3.prefab using Guid(37397042b63958749882c7bff52d4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9192441ce2a0dc3e7d3a9b6424c52') in 0.074233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Room1.prefab
-  artifactKey: Guid(64c7f013cfbb98d4cadca554e0dd0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Room1.prefab using Guid(64c7f013cfbb98d4cadca554e0dd0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bba8d1d8293334b03b9719a64305a69') in 0.098851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Room4.prefab
-  artifactKey: Guid(e7a44541ce241984e80a6fcef0fc2acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Room4.prefab using Guid(e7a44541ce241984e80a6fcef0fc2acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae047d2ed7ede7f6191a2573543ae1b1') in 0.061346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/healroom.prefab
-  artifactKey: Guid(3d66bcc5b5c1e714fa0a6afb8a88c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/healroom.prefab using Guid(3d66bcc5b5c1e714fa0a6afb8a88c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8e8cdd1096b992fda3e44a513a630e') in 0.029858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/SpawnRoom.prefab
-  artifactKey: Guid(ad9bc6b1afecaa146997ffac30d1df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/SpawnRoom.prefab using Guid(ad9bc6b1afecaa146997ffac30d1df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf857f032d2e0c4b404d2adf7ee7f111') in 0.274035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Room2.prefab
-  artifactKey: Guid(6e6dc0ffc40ca0c48994077da31731a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Prefabs/Room2.prefab using Guid(6e6dc0ffc40ca0c48994077da31731a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc7b3cbe36885cab09216882e13be4b') in 0.059820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 149.240145 seconds.
-  path: Assets/Main Project/Egor/LevelGenerator/Demo/Scenes/mainLevel.unity
-  artifactKey: Guid(fd5c4f821f60f504e86f3c46b210de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Project/Egor/LevelGenerator/Demo/Scenes/mainLevel.unity using Guid(fd5c4f821f60f504e86f3c46b210de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b784c65ade82fffcc1b78e8bc79efdf0') in 0.008866 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005836 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000277E0F24BF0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A0DA7050 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4D80010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A6A1A3D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A2DAC040 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A19AE010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0D9EC30 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1BE0020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A26BB190 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4D80010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279EAEE73E0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4EDE010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A158F020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A6A1A3D0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A1B8C020 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A5F8E650 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A6C45AC0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A28A7010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A26AF170 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A68B41B0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A43B0C40 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279EB1E0450 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A2D81A90 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A5F8E650 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A601B040 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4F84CA0 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0AA8810 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000277E0D54860 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A4D80010 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279A604CD40 doesn't match image D:\Физ_модель_1\games\УПП\Down-through-the-floors\Down-through-the-floors\My project\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1235ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (999ms)
-			LoadAssemblies (129ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (350ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (373ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.9 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2688.
-Total: 6.178600 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.081400 ms MarkObjects: 4.373300 ms  DeleteObjects: 1.471900 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 6.032500 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.079900 ms MarkObjects: 4.353300 ms  DeleteObjects: 1.350000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
