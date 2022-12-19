@@ -1,4 +1,6 @@
+using System.Collections;
 using System.Threading.Tasks;
+using Unity.FPS.Gameplay;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -16,18 +18,14 @@ public class doorOpen : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             Debug.Log("You Press F");
-            WaitPressed();
+            Pressed();
         }
     }
 
-    async void WaitPressed()
+    IEnumerator WaitPressed(NavMeshBaker baker, LevelCounter counter)
     {
-        Pressed();
-        GameObject _rooms = GameObject.Find("Level");
-        foreach (NavMeshSurface surface in _rooms.GetComponentsInChildren<NavMeshSurface>())
-        {
-            await Task.Run(() => surface.BuildNavMesh());
-        }
+        baker.Bake(counter.counter);
+        yield return new WaitForEndOfFrame();
     }
 
     void Pressed()
@@ -46,6 +44,9 @@ public class doorOpen : MonoBehaviour
                     anim.SetTrigger("Closed");
 
             }
+            LevelCounter levelCounter = FindObjectOfType<LevelCounter>();
+            NavMeshBaker baker = FindObjectOfType<NavMeshBaker>();
+            WaitPressed(baker, levelCounter);
         }
 
         

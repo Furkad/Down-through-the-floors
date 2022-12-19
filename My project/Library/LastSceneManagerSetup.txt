@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Main Project/Egor/LevelGenerator/Demo/Scenes/mainLevel.unity
+- path: Assets/Main Project/Egor/Design/mainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

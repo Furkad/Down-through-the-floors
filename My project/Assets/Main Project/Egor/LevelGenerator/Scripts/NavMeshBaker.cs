@@ -11,13 +11,16 @@ public class NavMeshBaker : MonoBehaviour
     {
         for (int i = 0; i < 5; i++)
         {
-            foreach (NavMeshSurface surface in _rooms[i].GetComponentsInChildren<NavMeshSurface>())
-            {
-                //_navMeshSurfaces.Add(surface);
-                surface.BuildNavMesh();
-            }
+            Bake(i);
         }
-            
     }
 
+    public void Bake(int floor)
+    {
+        foreach (NavMeshSurface surface in _rooms[floor].GetComponentsInChildren<NavMeshSurface>())
+        {
+            surface.BuildNavMesh();
+            break;
+        }
+    }
 }
